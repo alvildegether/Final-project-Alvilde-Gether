@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Alvilde Gether Homework Week 2</title>
+
+    <link rel="stylesheet" href="src/styles.css" />
+
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+      crossorigin="anonymous"
+    />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  </head>
+
+  <body>
+
+
+    <div class="container">
+
+    <form id="search-form">
+
+    <div class="input-group mb-3">
+    <input
+    type="text"
+    class="form-control"
+    placeholder="Type in city"
+    aria-label="Type in city"
+    autocomplete="off"
+    autofocus="on"
+    id="city-input"
+    aria-describedby="button-addon2">
+
+
+    <input
+    type="submit"
+    value="Search"
+    class="btn btn-outline-secondary" />
+
+    </form>
+
+
+
+</div>
+
+<button class="btn btn-outline-secondary" id="currentLocation">⦿ Use current location</button>
+
+  <!-- city -->
+
+  <h1 id="city"></h1>
+
+  <!-- day and time -->
+
+  <h4></h4>
+
+
+      <!-- Content here -->
+
+      
+      <div class="row">
+          <div class="col-sm"><div class="card">
+                  <div class="card-body">
+                      <h5 class="card-title"><span id="temperature"></span>°C</h5>
+                      <small class="card-text">🌡️ Temperature</small>
+                  </div>
+                </div>
+          </div>
+          <div class="col-sm"><div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><span id="humidity"></span>%</h5>
+                <small class="card-text">💦 Humidity</small>
+              </div>
+            </div></div>
+          <div class="col-sm"><div class="card">
+              <div class="card-body">
+                  <h5 class="card-title"><span id="wind"></span> m/s</h5>
+                  <small class="card-text">💨 Wind</small>
+              </div>
+            </div></div>
+          <div class="col-sm"><div class="card">
+              <div class="card-body">
+                <h5 class="card-title"><span id="description"></span></h5>
+                <small class="card-text">☁️ Description</small>
+              </div>
+            </div></div>
+        </div>
+
+
+      <footer>Coded by Alvilde Gether</footer>
+    </div>
+    <script src="src/index.js"></script>
+  </body>
+</html>

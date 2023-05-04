@@ -1,0 +1,95 @@
+body {
+  background: linear-gradient(to top, #fff1eb 0%, #ace0f9 100%);
+}
+
+body,
+html {
+  height: 100%;
+  width: 100%;
+  margin: 0px;
+}
+
+.container h1 {
+  margin-top: 30px;
+  margin-bottom: 10px;
+  color: #061074;
+  font-size: 30px;
+}
+
+.container h2 {
+  color: #061074;
+  font-size: 20px;
+  text-align: center;
+}
+
+.container h3 {
+  font-size: 150px;
+  text-align: center;
+  padding: 32px;
+}
+
+.container h4 {
+  color: #061074;
+  font-size: 14px;
+  text-align: left;
+  font-weight: 200;
+  padding-bottom: 10px;
+}
+
+.container p {
+  text-align: center;
+  font-weight: 200;
+  font-size: 12px;
+}
+
+.container .card {
+  text-align: center;
+  padding: 12px;
+  margin: 5px;
+  border-color: white;
+}
+
+.card-title-red {
+  color: red;
+}
+
+.icon-card {
+  font-size: 40px;
+  text-align: center;
+  margin: -8px;
+}
+
+footer {
+  margin: 50px;
+  text-align: center;
+}
+
+small {
+  font-weight: 300;
+}
+
+.form-control,
+.input-group .btn {
+  margin-top: 50px;
+}
+
+.input-group .btn {
+  background-color: #061074;
+  border-color: white;
+  color: #ace0f9;
+}
+
+.btn {
+  background-color: #939cff00;
+  border-color: #061074;
+  color: #061074;
+  font-size: 12px;
+}
+
+.btn:hover {
+  background-color: #061074;
+}
+
+input.form-control {
+  border-color: white;
+}
